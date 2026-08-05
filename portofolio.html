@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DAA PROJECT — Jasa fotografi profesional di Yogyakarta. Wedding, portrait, graduation, family, event & commercial photography." />
+  <title>DAA PROJECT — Professional Photography</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="image/logo.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="image/logo.png" />
+  <link rel="apple-touch-icon" href="image/logo.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav-logo"><img class="nav-logo-img" src="image/logo.png" alt="DAA PROJECT" /></a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="service.html">Services</a>
+      <a href="portofolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="service.html" class="btn btn-gold nav-cta">Pesan Paket</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="service.html">Services</a>
+    <a href="portofolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="works" id="portfolio">
+    <div class="container">
+      <div class="works-head reveal">
+        <div>
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Selected Moments</h2>
+          <p class="section-desc">Kumpulan karya terbaik yang kami lahirkan untuk setiap momen berharga klien kami.</p>
+        </div>
+        <div class="works-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="wedding">Wedding</button>
+          <button class="filter-btn" data-filter="portrait">Portrait</button>
+          <button class="filter-btn" data-filter="event">Event</button>
+          <button class="filter-btn" data-filter="commercial">Commercial</button>
+          <button class="filter-btn" data-filter="family">Family</button>
+        </div>
+      </div>
+
+      <div class="works-carousel">
+        <button class="carousel-nav prev" aria-label="Previous">&#8249;</button>
+        <div class="works-grid">
+        <figure class="work-item reveal" data-category="wedding">
+          <img src="image/wedding%20(1).jpeg" alt="Wedding photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Wedding</span>
+            <span class="work-title">Eternal Vows</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="wedding">
+          <img src="image/wedding%20(2).jpeg" alt="Wedding photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Wedding</span>
+            <span class="work-title">First Dance</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="wedding">
+          <img src="image/wedding%20(3).jpeg" alt="Wedding photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Wedding</span>
+            <span class="work-title">The Bride</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="wedding">
+          <img src="image/wedding%20(4).jpg" alt="Wedding photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Wedding</span>
+            <span class="work-title">The Celebration</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="portrait">
+          <img src="image/potrait%20(1).jpeg" alt="Portrait photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Portrait</span>
+            <span class="work-title">Radiance</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="portrait">
+          <img src="image/potrait%20(2).jpeg" alt="Portrait photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Portrait</span>
+            <span class="work-title">The Artist</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="portrait">
+          <img src="image/potrait%20(3).jpeg" alt="Portrait photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Portrait</span>
+            <span class="work-title">Silk & Shadow</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="portrait">
+          <img src="image/potrait%20(4).jpg" alt="Portrait photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Portrait</span>
+            <span class="work-title">Bold Portrait</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="family">
+          <img src="image/family%20(1).jpg" alt="Family photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Family</span>
+            <span class="work-title">Little Hands</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="family">
+          <img src="image/family%20(2).jpg" alt="Family photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Family</span>
+            <span class="work-title">New Arrival</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="family">
+          <img src="image/family%20(3).jpg" alt="Family photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Family</span>
+            <span class="work-title">Generations</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="family">
+          <img src="image/family%20(4).jpg" alt="Family photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Family</span>
+            <span class="work-title">Family Time</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="event">
+          <img src="image/event%20(1).jpeg" alt="Event photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Event</span>
+            <span class="work-title">Live Lights</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="event">
+          <img src="image/event%20(2).jpeg" alt="Event photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Event</span>
+            <span class="work-title">Main Stage</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="event">
+          <img src="image/event%20(3).jpeg" alt="Event photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Event</span>
+            <span class="work-title">After Party</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="event">
+          <img src="image/event%20(4).jpg" alt="Event photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Event</span>
+            <span class="work-title">The Crowd</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="commercial">
+          <img src="image/commercial%20(1).jpeg" alt="Commercial photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Commercial</span>
+            <span class="work-title">Master's Gear</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="commercial">
+          <img src="image/commercial%20(2).jpeg" alt="Commercial photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Commercial</span>
+            <span class="work-title">Timeless Craft</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="commercial">
+          <img src="image/commercial%20(3).jpeg" alt="Commercial photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Commercial</span>
+            <span class="work-title">Sound in Motion</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+
+        <figure class="work-item reveal" data-category="commercial">
+          <img src="image/commercial%20(4).jpg" alt="Commercial photography" />
+          <div class="work-overlay">
+            <span class="work-cat">Commercial</span>
+            <span class="work-title">Commercial Shot</span>
+          </div>
+          <span class="work-plus">+</span>
+        </figure>
+        </div><!-- /works-grid -->
+        <button class="carousel-nav next" aria-label="Next">&#8250;</button>
+      </div><!-- /works-carousel -->
+    </div>
+  </section>
+
+  <!-- ================= HASIL KARYA TAMBAHAN : KARYA LANDING PAGE ================= -->
+  <section class="lp">
+    <div class="container">
+      <div class="works-head reveal">
+        <div>
+          <span class="section-tag">Landing Page</span>
+          <h2 class="section-title">Karya Landing Page</h2>
+          <p class="section-desc">Karya tambahan pembuatan landing page yang kami ibaratkan — hasil desain halaman yang bersih, modern, dan menguatkan identitas brand.</p>
+        </div>
+      </div>
+      <div class="lp-carousel">
+        <div class="lp-track">
+          <figure class="lp-item" data-title="Landing Page 1"><img src="image/lp1.png" alt="Landing Page 1" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 2"><img src="image/lp2.jpg" alt="Landing Page 2" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 3"><img src="image/lp3.jpg" alt="Landing Page 3" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 4"><img src="image/lp4.jpg" alt="Landing Page 4" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 5"><img src="image/lp5.jpg" alt="Landing Page 5" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 6"><img src="image/lp6.jpg" alt="Landing Page 6" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 7"><img src="image/lp7.webp" alt="Landing Page 7" loading="lazy" /></figure>
+          <figure class="lp-item" data-title="Landing Page 8"><img src="image/lp8.jpg" alt="Landing Page 8" loading="lazy" /></figure>
+        </div>
+        <button class="carousel-nav prev" aria-label="Sebelumnya">&#8249;</button>
+        <button class="carousel-nav next" aria-label="Berikutnya">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Karya Landing Page -->
+  <div class="lightbox" id="lpLightbox">
+    <button class="lightbox-close" id="lpClose" aria-label="Tutup">&#10005;</button>
+    <button class="lightbox-nav prev" id="lpPrev" aria-label="Sebelumnya">&#8249;</button>
+    <figure class="lightbox-figure">
+      <img id="lpImg" src="" alt="Landing Page" />
+      <figcaption id="lpCaption"></figcaption>
+    </figure>
+    <button class="lightbox-nav next" id="lpNext" aria-label="Berikutnya">&#8250;</button>
+  </div>
+
+
+<!-- Info Kontak -->
+  <footer>
+    <div class="container">
+      <div class="footer-top">
+        <img class="footer-logo-img" src="image/logo.png" alt="DAA PROJECT" />
+        <div class="footer-tagline">Professional Photography Studio</div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="service.html">Services</a>
+          <a href="portofolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-contact">
+        <a href="https://wa.me/6287759155939" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.5 8.5 0 0 1-12.5 7.5L3 21l2-5.5A8.5 8.5 0 1 1 21 11.5z"/></svg>
+          0877 5915 5939
+        </a>
+        <a href="https://instagram.com/hudzaifaaa" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+          @hudzaifaaa
+        </a>
+        <span style="display:inline-flex;align-items:center;gap:8px;color:rgba(243,240,234,.65);font-size:13px">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10a8 8 0 1 0-16 0c0 6 8 10 8 10z"/><circle cx="12" cy="11" r="3"/></svg>
+          Jogjakarta, Tegalrejo, Gang DPR
+        </span>
+      </div>
+      <div class="footer-bottom">&copy; <span id="year"></span> DAA PROJECT. All rights reserved.</div>
+    </div>
+  </footer>
+
+<!-- ================= FULLSCREEN LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">&#10005;</button>
+  <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Sebelumnya">&#8249;</button>
+  <figure class="lightbox-figure">
+    <img id="lightboxImg" src="" alt="Foto" />
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+  <button class="lightbox-nav next" id="lightboxNext" aria-label="Berikutnya">&#8250;</button>
+</div>
+
+<script>
+/* ===== Konfigurasi WhatsApp =====
+       WA_PHONE = nomor WhatsApp tujuan (format internasional tanpa + dan 0). */
+    var WA_PHONE = '6287759155939'; /* nomor WhatsApp Anda */
+
+    /* Smooth-scroll helper for anchor links (offset for fixed nav) */
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        var targetId = this.getAttribute('href');
+        if (targetId.length > 1) {
+          var target = document.querySelector(targetId);
+          if (target) {
+            e.preventDefault();
+            var nav = document.getElementById('nav');
+            var offset = nav ? nav.offsetHeight : 0;
+            window.scrollTo({ top: target.getBoundingClientRect().top + window.pageYOffset - offset + 10, behavior: 'smooth' });
+          }
+        }
+      });
+    });
+
+    /* Nav background on scroll */
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    /* Hamburger menu */
+    var hamburger = document.getElementById('hamburger');
+    var mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', function () {
+      this.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+      document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+    });
+    mobileMenu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        hamburger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+        document.body.style.overflow = '';
+      });
+    });
+
+    /* Portfolio filter */
+    var filterButtons = document.querySelectorAll('.filter-btn');
+    var workItems = document.querySelectorAll('.work-item');
+    filterButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        filterButtons.forEach(function (b) { b.classList.remove('active'); });
+        this.classList.add('active');
+        var filter = this.getAttribute('data-filter');
+        workItems.forEach(function (item) {
+          var cat = item.getAttribute('data-category');
+          var show = filter === 'all' || cat === filter;
+          item.style.display = show ? '' : 'none';
+        });
+        if (typeof carouselActive !== 'undefined') carouselActive = 0;
+        if (typeof renderCarousel === 'function') renderCarousel();
+      });
+    });
+
+    /* ===== Portfolio Carousel - center focus with infinite loop ===== */
+    var worksGrid = document.querySelector('.works-grid');
+    var carouselPrev = document.querySelector('.carousel-nav.prev');
+    var carouselNext = document.querySelector('.carousel-nav.next');
+    var carouselActive = 0; // current center index (within all work-items)
+
+    function visibleItems() {
+      return Array.prototype.filter.call(worksGrid.querySelectorAll('.work-item'), function (it) {
+        return it.style.display !== 'none';
+      });
+    }
+
+    /* centered wrap-around delta: distance from i to j in a ring of n items */
+    function ringDelta(i, j, n) {
+      var raw = i - j;
+      var half = Math.floor(n / 2);
+      return ((raw + half) % n + n) % n - half;
+    }
+
+    function renderCarousel() {
+      var items = visibleItems();
+      var n = items.length;
+      if (!n) return;
+      carouselActive = ((carouselActive % n) + n) % n;
+
+      var gridW = worksGrid.clientWidth || 1100;
+      var isMobile = window.innerWidth < 768;
+      var activeW, sideW, gap, step;
+      if (isMobile) {
+        // Mobile: gambar tengah besar, sisi kiri/kanan cuma sedikit mengintip
+        activeW = Math.round(gridW * 0.82);
+        sideW = Math.round(gridW * 0.40);
+        gap = 10;
+        step = Math.round(activeW / 2 + gap + sideW * 0.18); // side card menyembul sedikit di tepi
+      } else {
+        activeW = Math.round(gridW * 0.40);   // center card width
+        sideW = Math.round(gridW * 0.30);     // side card width
+        gap = 18;
+        step = Math.round(activeW / 2 + gap + sideW / 2); // horizontal shift for side cards
+      }
+
+      items.forEach(function (it, i) {
+        var d = ringDelta(i, carouselActive, n);
+        it.classList.remove('active', 'near');
+        var state = 'back', x = 0;
+        if (d === 0) {
+          state = 'active';
+        } else if (d === 1 || d === 1 - n) {
+          state = 'near'; x = step;               // slide one stage to the right
+        } else if (d === -1 || d === n - 1) {
+          state = 'near'; x = -step;              // slide one stage to the left
+        }
+        // base translate(-50%,-50%) centers both axes; add x to move across stages
+        it.style.width = (state === 'active' ? activeW : sideW) + 'px';
+        it.style.transform = 'translate(-50%, -50%) translateX(' + x + 'px)';
+        it.style.filter = state === 'active' ? 'blur(0px)' : (state === 'near' ? 'blur(3.5px)' : 'blur(6px)');
+        it.style.zIndex = state === 'active' ? '3' : (state === 'near' ? '2' : '1');
+        it.style.opacity = state === 'back' ? '0' : '1';
+        if (state === 'active') it.classList.add('active');
+        else if (state === 'near') it.classList.add('near');
+      });
+
+      var h = items[carouselActive].clientHeight || 320;
+      worksGrid.style.height = h + 'px';
+    }
+
+    function stepCarousel(dir) {
+      var n = visibleItems().length;
+      if (!n) return;
+      carouselActive = ((carouselActive + dir) % n + n) % n;
+      renderCarousel();
+    }
+
+    if (worksGrid) {
+      window.addEventListener('resize', function () { renderCarousel(); });
+      if (carouselPrev) carouselPrev.addEventListener('click', function () { stepCarousel(-1); });
+      if (carouselNext) carouselNext.addEventListener('click', function () { stepCarousel(1); });
+      renderCarousel();
+    }
+
+    /* IntersectionObserver reveal on scroll */
+    var revealEls = document.querySelectorAll('.reveal');
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(function (el) { observer.observe(el); });
+
+    /* Gallery slide navigation */
+    var galleryTrack = document.querySelector('.gallery-track');
+    var prevBtn = document.querySelector('.gallery-nav.prev');
+    var nextBtn = document.querySelector('.gallery-nav.next');
+    if (galleryTrack && prevBtn && nextBtn) {
+      var itemWidth = function () {
+        var first = galleryTrack.querySelector('.gallery-item');
+        return first ? first.getBoundingClientRect().width + 14 : 274;
+      };
+      prevBtn.addEventListener('click', function () {
+        galleryTrack.scrollBy({ left: -itemWidth(), behavior: 'smooth' });
+      });
+      nextBtn.addEventListener('click', function () {
+        galleryTrack.scrollBy({ left: itemWidth(), behavior: 'smooth' });
+      });
+      window.addEventListener('resize', function () { /* width computed on click */ });
+    }
+
+    /* ===== Form pemesanan/pembelian paket (section Paket) ===== */
+    var bookingSuccess = document.getElementById('bookingSuccess');
+    var purchaseForm = document.getElementById('purchaseForm');
+    if (purchaseForm) {
+      purchaseForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('buyName').value.trim();
+        var phone = document.getElementById('buyPhone').value.trim();
+        var date = document.getElementById('buyDate').value;
+        var msg = document.getElementById('buyMsg').value.trim();
+        var buyPkg = document.getElementById('bookPurchasePkg');
+        var buyModeSel = document.getElementById('bookPurchaseMode');
+        var buyQty = document.getElementById('bookPurchaseQty');
+        var buyPrice = document.getElementById('bookPurchasePrice');
+        var buyTotal = document.getElementById('bookPurchaseTotal');
+        var pkgName = buyPkg.value;
+        var modeName = buyModeSel.value === 'full' ? 'Paket Lengkap' : 'Per Paket';
+        var text = 'Halo DAA PROJECT, saya ingin memesan paket foto.%0A%0A' +
+          'Nama: ' + encodeURIComponent(name) + '%0A' +
+          'No. WA/Telp: ' + encodeURIComponent(phone) + '%0A' +
+          'Paket: ' + encodeURIComponent(pkgName) + '%0A' +
+          'Mode: ' + encodeURIComponent(modeName) + '%0A' +
+          'Jumlah: ' + encodeURIComponent(buyQty.value) + '%0A' +
+          'Harga Satuan: ' + encodeURIComponent(buyPrice.value) + '%0A' +
+          'Total Harga: ' + encodeURIComponent(buyTotal.value) + '%0A' +
+          'Tanggal Acara: ' + encodeURIComponent(date) + '%0A' +
+          'Catatan: ' + encodeURIComponent(msg);
+        window.open('https://wa.me/' + WA_PHONE + '?text=' + text, '_blank');
+        bookingSuccess.classList.add('show');
+        purchaseForm.reset();
+        calcPurchase();
+        /* tutup modal setelah pesan sukses terlihat */
+        setTimeout(closeOrder, 1800);
+      });
+    }
+
+    /* ===== Form konsultasi / pertanyaan (section Konsultasi) ===== */
+    var consultForm = document.getElementById('consultForm');
+    if (consultForm) {
+      consultForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('askName').value.trim();
+        var phone = document.getElementById('askPhone').value.trim();
+        var question = document.getElementById('askMsg').value.trim();
+        var text = 'Halo DAA PROJECT, saya ingin berkonsultasi.%0A%0A' +
+          'Nama: ' + encodeURIComponent(name) + '%0A' +
+          'No. WA/Telp: ' + encodeURIComponent(phone) + '%0A%0A' +
+          'Pertanyaan: ' + encodeURIComponent(question);
+        window.open('https://wa.me/' + WA_PHONE + '?text=' + text, '_blank');
+        var cs = document.getElementById('consultSuccess');
+        if (cs) cs.classList.add('show');
+        consultForm.reset();
+      });
+    }
+
+    /* ================= Paket & Harga : Pilih Paket & Toggle ================= */
+    var formatRupiah = function (num) {
+      return 'Rp ' + Number(num).toLocaleString('id-ID');
+    };
+
+    var packageCards = document.querySelectorAll('.package-card');
+    var selectButtons = document.querySelectorAll('.select-package');
+    var billingToggle = document.getElementById('billingToggle');
+
+    /* ===== Perhitungan pembelian paket di form booking ===== */
+    var PKG_PRICE = {
+      Basic: { base: 150000, full: 250000 },
+      Premium: { base: 450000, full: 750000 },
+      Exclusive: { base: 850000, full: 1350000 }
+    };
+    function fmtMoney(n) { return 'Rp ' + Number(n).toLocaleString('id-ID'); }
+    function calcPurchase() {
+      var pkgSel = document.getElementById('bookPurchasePkg');
+      var modeSel = document.getElementById('bookPurchaseMode');
+      var qtySel = document.getElementById('bookPurchaseQty');
+      var priceEl = document.getElementById('bookPurchasePrice');
+      var totalEl = document.getElementById('bookPurchaseTotal');
+      var badgeEl = document.getElementById('purchaseTotalBuy');
+      if (!pkgSel || !pkgSel.value) { if (priceEl) priceEl.value = 'Rp 0'; if (totalEl) totalEl.value = 'Rp 0'; if (badgeEl) badgeEl.textContent = 'Rp 0'; return; }
+      var mode = modeSel.value === 'full' ? 'full' : 'base';
+      var unit = PKG_PRICE[pkgSel.value][mode];
+      var qty = Math.max(1, parseInt(qtySel.value, 10) || 1);
+      var total = unit * qty;
+      if (priceEl) priceEl.value = fmtMoney(unit);
+      if (totalEl) totalEl.value = fmtMoney(total);
+      if (badgeEl) badgeEl.textContent = fmtMoney(total);
+    }
+    var pkgSel = document.getElementById('bookPurchasePkg');
+    var modeSel = document.getElementById('bookPurchaseMode');
+    var qtySel = document.getElementById('bookPurchaseQty');
+    if (pkgSel) pkgSel.addEventListener('change', calcPurchase);
+    if (modeSel) modeSel.addEventListener('change', calcPurchase);
+    if (qtySel) qtySel.addEventListener('input', calcPurchase);
+    calcPurchase();
+
+    /* Simpan fitur awal (Per Paket) dari tiap kartu untuk dipulihkan */
+    var baseFeatures = {};
+    packageCards.forEach(function (card, idx) {
+      var items = [];
+      card.querySelectorAll('.package-features li').forEach(function (li) {
+        items.push({ text: li.textContent.replace(/^[✓✗]/, '').trim(), on: !li.classList.contains('off') });
+      });
+      baseFeatures[idx] = items;
+    });
+
+    /* Render ulang daftar fitur berdasarkan toggle */
+    function renderFeatures(card, idx, isFull) {
+      var list = card.querySelector('.package-features');
+      if (!list) return;
+      var items;
+      if (isFull && card.getAttribute('data-full')) {
+        items = card.getAttribute('data-full').split('|').map(function (t) { return { text: t, on: true }; });
+      } else {
+        items = baseFeatures[idx];
+      }
+      list.innerHTML = '';
+      items.forEach(function (it) {
+        var li = document.createElement('li');
+        li.innerHTML = '<span class="' + (it.on ? 'check' : 'cross') + '">' + (it.on ? '✓' : '✗') + '</span>' + it.text;
+        if (!it.on) li.classList.add('off');
+        list.appendChild(li);
+      });
+    }
+
+    /* Toggle billing: Per Paket / Paket Lengkap (fitur lebih banyak & harga naik) */
+    if (billingToggle) {
+      billingToggle.addEventListener('change', function () {
+        var isFull = billingToggle.checked;
+        packageCards.forEach(function (card, idx) {
+          var base = parseInt(card.getAttribute('data-base'), 10);
+          var fullPrice = card.getAttribute('data-full-price')
+            ? parseInt(card.getAttribute('data-full-price'), 10)
+            : Math.round(base * 1.6);
+          var price = isFull ? fullPrice : base;
+          var amountEl = card.querySelector('.amount');
+          var priceEl = card.querySelector('.package-price');
+          amountEl.textContent = price.toLocaleString('id-ID');
+          amountEl.setAttribute('data-amount', price);
+
+          /* hapus harga coret (tidak relevan karena bukan diskon) */
+          var oldEl = priceEl.querySelector('.old-amount');
+          if (oldEl) oldEl.remove();
+
+          priceEl.querySelector('.period').textContent = isFull ? ' / Paket Lengkap' : ' /sesi';
+          renderFeatures(card, idx, isFull);
+        });
+      });
+    }
+
+    /* Tombol Pilih Paket: isi form booking + scroll ke booking */
+    selectButtons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var pkg = this.getAttribute('data-name');
+        var card = this.closest('.package-card');
+        var amount = card.querySelector('.amount').getAttribute('data-amount');
+
+        /* tandai tombol terpilih */
+        selectButtons.forEach(function (b) { b.classList.remove('is-selected'); });
+        this.classList.add('is-selected');
+
+        /* sinkronkan ke bagian pembelian / form pemesanan */
+        var purchasePkg = document.getElementById('bookPurchasePkg');
+        var purchaseMode = document.getElementById('bookPurchaseMode');
+        var isFull = billingToggle && billingToggle.checked;
+        if (purchasePkg) purchasePkg.value = pkg;
+        if (purchaseMode) purchaseMode.value = isFull ? 'full' : 'base';
+        calcPurchase();
+
+        /* isi header modal */
+        var oName = document.getElementById('orderPkgName');
+        var oMode = document.getElementById('orderPkgMode');
+        var oPrice = document.getElementById('orderPkgPrice');
+        if (oName) oName.textContent = pkg;
+        if (oMode) oMode.textContent = isFull ? 'Paket Lengkap' : 'Per Paket';
+        if (oPrice) oPrice.textContent = formatRupiah(parseInt(amount, 10));
+
+        /* buka modal pemesanan agar menutupi halaman (overlay + blur) */
+        openOrder();
+      });
+    });
+
+    /* Buka / tutup modal pemesanan */
+    function openOrder() {
+      var panel = document.getElementById('packageOrder');
+      var overlay = document.getElementById('packagesOverlay');
+      if (panel) panel.classList.add('show');
+      if (overlay) overlay.classList.add('show');
+      document.body.classList.add('order-open');
+    }
+    function closeOrder() {
+      var panel = document.getElementById('packageOrder');
+      var overlay = document.getElementById('packagesOverlay');
+      if (panel) panel.classList.remove('show');
+      if (overlay) overlay.classList.remove('show');
+      document.body.classList.remove('order-open');
+    }
+    var packagesClose = document.getElementById('packagesClose');
+    if (packagesClose) packagesClose.addEventListener('click', closeOrder);
+    var packagesOverlay = document.getElementById('packagesOverlay');
+    if (packagesOverlay) packagesOverlay.addEventListener('click', closeOrder);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeOrder();
+    });
+
+    /* Footer year */
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    /* ===== Lightbox: klik gambar -> tampil fullscreen ===== */
+    var worksGridEl = document.querySelector('.works-grid');
+    var lightbox = document.getElementById('lightbox');
+    var lightImg = document.getElementById('lightboxImg');
+    var lightboxItems = [];
+    var lightIndex = 0;
+
+    function collectLightbox() {
+      lightboxItems = visibleItems().map(function (it) {
+        var img = it.querySelector('img');
+        var title = it.querySelector('.work-title');
+        return { src: img ? img.getAttribute('src') : '', title: title ? title.textContent : '' };
+      });
+    }
+
+    function openLightbox(idx) {
+      if (!lightboxItems.length) return;
+      lightIndex = ((idx % lightboxItems.length) + lightboxItems.length) % lightboxItems.length;
+      lightImg.setAttribute('src', lightboxItems[lightIndex].src);
+      document.getElementById('lightboxCaption').textContent = lightboxItems[lightIndex].title;
+      lightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    function moveLightbox(dir) {
+      if (!lightboxItems.length) return;
+      lightIndex = ((lightIndex + dir) % lightboxItems.length + lightboxItems.length) % lightboxItems.length;
+      lightImg.setAttribute('src', lightboxItems[lightIndex].src);
+      document.getElementById('lightboxCaption').textContent = lightboxItems[lightIndex].title;
+    }
+
+    if (lightbox) {
+      worksGridEl.addEventListener('click', function (e) {
+        var item = e.target.closest('.work-item');
+        /* hanya buka lightbox jika yang diklik adalah gambar aktif (di tengah) */
+        if (!item || !item.classList.contains('active')) return;
+        collectLightbox();
+        var idx = lightboxItems.findIndex(function (o) {
+          var img = item.querySelector('img');
+          return img && img.getAttribute('src') === o.src;
+        });
+        openLightbox(idx >= 0 ? idx : 0);
+      });
+      document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+      document.getElementById('lightboxPrev').addEventListener('click', function () { moveLightbox(-1); });
+      document.getElementById('lightboxNext').addEventListener('click', function () { moveLightbox(1); });
+      lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox) closeLightbox();
+      });
+      document.addEventListener('keydown', function (e) {
+        if (!lightbox.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLightbox();
+        else if (e.key === 'ArrowLeft') moveLightbox(-1);
+        else if (e.key === 'ArrowRight') moveLightbox(1);
+      });
+    }
+
+    /* ===== Carousel Karya Landing Page (mirror carousel portofolio) ===== */
+    var lpTrack = document.querySelector('.lp-track');
+    var lpAll = Array.prototype.slice.call(document.querySelectorAll('.lp-track .lp-item')) || [];
+    var lpActive = 0;
+
+    function renderLp() {
+      var items = lpAll;
+      var n = items.length;
+      if (!n) return;
+      lpActive = ((lpActive % n) + n) % n;
+
+      var gridW = lpTrack.clientWidth || 1100;
+      var isMobile = window.innerWidth < 768;
+      var activeW, sideW, gap, step;
+      if (isMobile) {
+        activeW = Math.round(gridW * 0.82);
+        sideW = Math.round(gridW * 0.40);
+        gap = 10;
+        step = Math.round(activeW / 2 + gap + sideW * 0.18);
+      } else {
+        activeW = Math.round(gridW * 0.40);
+        sideW = Math.round(gridW * 0.30);
+        gap = 18;
+        step = Math.round(activeW / 2 + gap + sideW / 2);
+      }
+
+      items.forEach(function (it, i) {
+        var d = ringDelta(i, lpActive, n);
+        it.classList.remove('active', 'near');
+        var state = 'back', x = 0;
+        if (d === 0) state = 'active';
+        else if (d === 1 || d === 1 - n) { state = 'near'; x = step; }
+        else if (d === -1 || d === n - 1) { state = 'near'; x = -step; }
+        it.style.width = (state === 'active' ? activeW : sideW) + 'px';
+        it.style.transform = 'translate(-50%, -50%) translateX(' + x + 'px) scale(' + (state === 'active' ? '1' : '.82') + ')';
+        it.style.filter = state === 'active' ? 'blur(0px)' : (state === 'near' ? 'blur(3.5px)' : 'blur(6px)');
+        it.style.zIndex = state === 'active' ? '3' : (state === 'near' ? '2' : '1');
+        it.style.opacity = state === 'back' ? '0' : '1';
+        if (state === 'active') it.classList.add('active');
+        else if (state === 'near') it.classList.add('near');
+      });
+
+      var h = items[lpActive].clientHeight || 320;
+      lpTrack.style.height = h + 'px';
+    }
+
+    function stepLp(dir) {
+      var n = lpAll.length;
+      if (!n) return;
+      lpActive = ((lpActive + dir) % n + n) % n;
+      renderLp();
+    }
+
+    var lpLightbox = document.getElementById('lpLightbox');
+    var lpImg = document.getElementById('lpImg');
+    var lpCaption = document.getElementById('lpCaption');
+    var lpIndex = 0;
+
+    function openLpLightbox(idx) {
+      if (!lpAll.length) return;
+      lpIndex = ((idx % lpAll.length) + lpAll.length) % lpAll.length;
+      var im = lpAll[lpIndex].querySelector('img');
+      lpImg.setAttribute('src', im ? im.getAttribute('src') : '');
+      lpCaption.textContent = lpAll[lpIndex].getAttribute('data-title') || 'Landing Page';
+      lpLightbox.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLpLightbox() {
+      lpLightbox.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    function moveLpLightbox(dir) {
+      if (!lpAll.length) return;
+      lpIndex = ((lpIndex + dir) % lpAll.length + lpAll.length) % lpAll.length;
+      var im = lpAll[lpIndex].querySelector('img');
+      lpImg.setAttribute('src', im ? im.getAttribute('src') : '');
+      lpCaption.textContent = lpAll[lpIndex].getAttribute('data-title') || 'Landing Page';
+    }
+
+    if (lpTrack) {
+      var lpPrevBtn = document.querySelector('.lp-carousel .carousel-nav.prev');
+      var lpNextBtn = document.querySelector('.lp-carousel .carousel-nav.next');
+      if (lpPrevBtn) lpPrevBtn.addEventListener('click', function () { stepLp(-1); });
+      if (lpNextBtn) lpNextBtn.addEventListener('click', function () { stepLp(1); });
+
+      /* hanya item aktif (tengah) yang bisa dibuka lightbox */
+      lpTrack.addEventListener('click', function (e) {
+        var it = e.target.closest('.lp-item');
+        if (!it || !it.classList.contains('active')) return;
+        var idx = lpAll.indexOf(it);
+        openLpLightbox(idx >= 0 ? idx : 0);
+      });
+
+      renderLp();
+      window.addEventListener('resize', renderLp);
+
+      if (lpLightbox) {
+        document.getElementById('lpClose').addEventListener('click', closeLpLightbox);
+        document.getElementById('lpPrev').addEventListener('click', function () { moveLpLightbox(-1); });
+        document.getElementById('lpNext').addEventListener('click', function () { moveLpLightbox(1); });
+        lpLightbox.addEventListener('click', function (e) {
+          if (e.target === lpLightbox) closeLpLightbox();
+        });
+        document.addEventListener('keydown', function (e) {
+          if (!lpLightbox.classList.contains('open')) return;
+          if (e.key === 'Escape') closeLpLightbox();
+          else if (e.key === 'ArrowLeft') moveLpLightbox(-1);
+          else if (e.key === 'ArrowRight') moveLpLightbox(1);
+        });
+      }
+    }
+</script>
+</body>
+</html>

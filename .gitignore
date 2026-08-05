@@ -1,0 +1,15 @@
+# Local development
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Cloudflare / Wrangler
+.wrangler/
+wrangler.toml
+
+# Environment files
+.env
+.env.production
